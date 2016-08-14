@@ -13,9 +13,31 @@
     background-image: none
 }
 
+@font-face{
+    font-family: "comfortaa";
+    src: url('font/Comfortaa-Bold.ttf'),
+    url('Comfortaa-Bold.ttf'); /* IE */
+}
+
+@font-face{
+    font-family: "comfortaa";
+    src: url('font/Comfortaa-Regular.ttf'),
+    url('Comfortaa-Regular.ttf'); /* IE */
+}
+
+@font-face{
+    font-family: "comfortaa";
+    src: url('font/Comfortaa-Light.ttf'),
+    url('Comfortaa-Light.ttf'); /* IE */
+}
+
+
+
+
+
 body {
     overflow-x: hidden;
-    font-family: "Varela Round", "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "comfortaa", "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     webkit-tap-highlight-color: #00cc99
 }
 
@@ -27,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:  "Varela Round", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700
 }
@@ -167,7 +189,7 @@ fieldset[disabled] .btn-xl:hover {
 
 .navbar-custom .navbar-brand {
     color: #00cc99;
-    font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, cursive
+    font-family: "comfortaa", "Helvetica Neue", Helvetica, Arial, cursive
 }
 
 .navbar-custom .navbar-brand.active,
@@ -179,7 +201,7 @@ fieldset[disabled] .btn-xl:hover {
 
 .navbar-custom .nav li a,
 .navbar-custom .navbar-toggle {
-    font-family:  "Varela Round", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #666666;
     text-transform: uppercase
 }
@@ -276,7 +298,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    font-family:  "Varela Round", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 22px;
     line-height: 22px;
@@ -284,7 +306,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    font-family:  "Varela Round", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
@@ -298,14 +320,14 @@ header .intro-text .intro-heading {
         padding-bottom: 200px
     }
     header .intro-text .intro-lead-in {
-        font-family:  "Varela Round", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family:  "comfortaa", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px
     }
     header .intro-text .intro-heading {
-        font-family:  "Varela Round", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family:  "comfortaa", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         font-weight: 700;
         font-size: 75px;
@@ -316,7 +338,7 @@ header .intro-text .intro-heading {
 
 #wheresection .wheresection-item .wheresection-caption p,
 section h3.section-subheading {
-    font-family:  "Varela Round", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic
 }
 
@@ -417,7 +439,7 @@ section h3.section-subheading {
 
 footer span.copyright,
 footer ul.quicklinks {
-    font-family: "Varela Round",  Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "comfortaa",  Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
 #wheresection * {
@@ -676,28 +698,28 @@ section#contact .form-control:focus {
 }
 
 section#contact::-webkit-input-placeholder {
-    font-family:  "Varela Round", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #eee
 }
 
 section#contact:-moz-placeholder {
-    font-family: "Varela Round",  Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "comfortaa",  Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #eee
 }
 
 section#contact::-moz-placeholder {
-    font-family: "Varela Round",  Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "comfortaa",  Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #eee
 }
 
 section#contact:-ms-input-placeholder {
-    font-family:  "Varela Round", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #eee
@@ -785,7 +807,7 @@ ul.social-buttons li a:hover {
 
 .wheresection-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Varela Round",  "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "comfortaa",  "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 16px
 }
@@ -870,3 +892,6 @@ img::-moz-selection {
 .goText {
     color:#00cc99;
 }
+
+.gomodal {
+width:25%}
