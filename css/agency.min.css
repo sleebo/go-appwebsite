@@ -60,7 +60,6 @@ h6 {
     
 }
 
-
 .text-primary,
 a {
     color: #00cc99
@@ -892,9 +891,6 @@ img::-moz-selection {
     color: #00cc99;
 }
 
-.goText {
-    color:#00cc99;
-}
 
 .gomodal {
 width:25%;
@@ -911,4 +907,12 @@ width: 100%;
 .whenImgs {
     width: 100%;
     height:100%;
+}
+
+
+.hiddenContent {
+    display:none;
+    width:0;
+    height:0;
+    opacity:0;
 }
