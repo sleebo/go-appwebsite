@@ -55,8 +55,11 @@ h6 {
 }
 
 .text-muted {
-    color: #666666
+    color: #666666;
+    font-family: "comfortaa";
+    
 }
+
 
 .text-primary,
 a {
@@ -894,4 +897,18 @@ img::-moz-selection {
 }
 
 .gomodal {
-width:25%}
+width:25%;
+}
+
+.carouselImg {
+display: block;
+height: 25px;
+max-width: 100%;
+line-height: 1;
+width: 100%; 
+}
+
+.whenImgs {
+    width: 100%;
+    height:100%;
+}
