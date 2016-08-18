@@ -14,7 +14,7 @@
 }
 
 @font-face{
-    font-family: "comfortaa";
+    font-family: "comfortaaBold";
     src: url('font/Comfortaa-Bold.ttf'),
     url('Comfortaa-Bold.ttf'); /* IE */
 }
@@ -26,7 +26,7 @@
 }
 
 @font-face{
-    font-family: "comfortaa";
+    font-family: "comfortaaLight";
     src: url('font/Comfortaa-Light.ttf'),
     url('Comfortaa-Light.ttf'); /* IE */
 }
@@ -34,7 +34,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "comfortaa", "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "comfortaa", "Verdana";
     webkit-tap-highlight-color: #00cc99
 }
 
@@ -46,14 +46,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:  "comfortaa", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", "Verdana";
     text-transform: uppercase;
     font-weight: 700
 }
 
 .text-muted {
     color: #666666;
-    font-family: "comfortaa";
+    font-family: "comfortaa","Verdana";
 }
 
 .text-primary,
@@ -187,7 +187,7 @@ fieldset[disabled] .btn-xl:hover {
 
 .navbar-custom .navbar-brand {
     color: #00cc99;
-    font-family: "comfortaa", "Helvetica Neue", Helvetica, Arial, cursive
+    font-family: "comfortaa", "Verdana", Helvetica, Arial, cursive
 }
 
 .navbar-custom .navbar-brand.active,
@@ -199,7 +199,7 @@ fieldset[disabled] .btn-xl:hover {
 
 .navbar-custom .nav li a,
 .navbar-custom .navbar-toggle {
-    font-family:  "comfortaa", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", Montserrat, "Verdana", Helvetica, Arial, sans-serif;
     color: #666666;
     text-transform: uppercase
 }
@@ -289,7 +289,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    font-family:  "comfortaa", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", "Droid Serif", "Verdana", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 22px;
     line-height: 22px;
@@ -297,7 +297,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    font-family:  "comfortaa", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", Montserrat, "Verdana", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
@@ -311,14 +311,14 @@ header .intro-text .intro-heading {
         padding-bottom: 200px
     }
     header .intro-text .intro-lead-in {
-        font-family:  "comfortaa", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family:  "comfortaa", "Droid Serif", "Verdana", Helvetica, Arial, sans-serif;
         font-style: italic;
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px
     }
     header .intro-text .intro-heading {
-        font-family:  "comfortaa", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family:  "comfortaa", Montserrat, "Verdana", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         font-weight: 700;
         font-size: 75px;
@@ -329,7 +329,7 @@ header .intro-text .intro-heading {
 
 #whosection .whosection-item .whosection-caption p,
 section h3.section-subheading {
-    font-family:  "comfortaa", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", "Droid Serif", "Verdana", Helvetica, Arial, sans-serif;
     font-style: italic
 }
 
@@ -430,7 +430,7 @@ section h3.section-subheading {
 
 footer span.copyright,
 footer ul.quicklinks {
-    font-family: "comfortaa",  Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "comfortaa",  Montserrat, "Verdana", Helvetica, Arial, sans-serif
 }
 
 #whosection * {
@@ -689,28 +689,28 @@ section#contact .form-control:focus {
 }
 
 section#contact::-webkit-input-placeholder {
-    font-family:  "comfortaa", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", Montserrat, "Verdana", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #eee
 }
 
 section#contact:-moz-placeholder {
-    font-family: "comfortaa",  Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "comfortaa",  Montserrat, "Verdana", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #eee
 }
 
 section#contact::-moz-placeholder {
-    font-family: "comfortaa",  Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "comfortaa",  Montserrat, "Verdana", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #eee
 }
 
 section#contact:-ms-input-placeholder {
-    font-family:  "comfortaa", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "comfortaa", Montserrat, "Verdana", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #eee
@@ -798,7 +798,7 @@ ul.social-buttons li a:hover {
 
 .whosection-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "comfortaa",  "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "comfortaa",  "Droid Serif", "Verdana", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 16px
 }
@@ -917,5 +917,6 @@ line-height: 1;
 color: #00cc99;}
 
 .whatPoem {
+    font-size: 12px;
     
 }
