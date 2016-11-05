@@ -1122,7 +1122,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 	// Support: IE<10
 	// Check if getElementById returns elements by name
 	// The broken getElementById methods don't pick up programatically-set names,
-	// so use a roundwhensection getElementsByName test
+	// so use a roundabout getElementsByName test
 	support.getById = assert(function( div ) {
 		docElem.appendChild( div ).id = expando;
 		return !document.getElementsByName || !document.getElementsByName( expando ).length;
@@ -4685,7 +4685,7 @@ function buildFragment( elems, context, scripts, selection, ignored ) {
 	}
 
 	// Reset defaultChecked for any radios and checkboxes
-	// whensection to be appended to the DOM in IE 6/7 (#8060)
+	// about to be appended to the DOM in IE 6/7 (#8060)
 	if ( !support.appendChecked ) {
 		jQuery.grep( getAll( nodes, "input" ), fixDefaultChecked );
 	}
@@ -9079,7 +9079,7 @@ var
 	rheaders = /^(.*?):[ \t]*([^\r\n]*)\r?$/mg,
 
 	// #7653, #8125, #8152: local protocol detection
-	rlocalProtocol = /^(?:whensection|app|app-storage|.+-extension|file|res|widget):$/,
+	rlocalProtocol = /^(?:about|app|app-storage|.+-extension|file|res|widget):$/,
 	rnoContent = /^(?:GET|HEAD)$/,
 	rprotocol = /^\/\//,
 	rurl = /^([\w.+-]+:)(?:\/\/(?:[^\/?#]*@|)([^\/?#:]*)(?::(\d+)|)|)/,
